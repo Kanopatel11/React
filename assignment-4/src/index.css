@@ -1,0 +1,32 @@
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    text-align: center;
+    background-color: gray;
+    height: 100vh;
+}
+h1{
+    font-size: 60px;
+}
+button{
+    padding: 5px;
+    font-size: 20px;
+    color: black;
+    background-color: ghostwhite;
+    margin-top: 30px;
+    width: 10%;
+    height: 50px;
+    border-radius: 10px;
+    transition: 2s;
+
+}
+
+button:hover{
+   background-color: black;
+   color: white;
+}
