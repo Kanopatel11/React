@@ -1,16 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import Person1 from './Person1';
-import Person2 from './Person2';
-
+import Todo from './Todo';
 
 function App() {
   return (
-  <>
-  <Person1 />
-  <Person2 />
-   
-  </>
+    <div className="App">
+      <Todo/>
+    </div>
   );
 }
 
